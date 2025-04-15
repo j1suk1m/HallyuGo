@@ -17,7 +17,6 @@ import java.io.IOException;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1")
 public class ProofController {
 
     private final ProofShotService proofShotService;
