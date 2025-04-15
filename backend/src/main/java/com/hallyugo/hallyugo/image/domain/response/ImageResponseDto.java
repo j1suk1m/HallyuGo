@@ -2,6 +2,7 @@ package com.hallyugo.hallyugo.image.domain.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.hallyugo.hallyugo.image.domain.Image;
+
 import java.time.LocalDateTime;
 import java.util.Objects;
 

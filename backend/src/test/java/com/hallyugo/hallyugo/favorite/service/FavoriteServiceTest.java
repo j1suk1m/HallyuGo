@@ -1,15 +1,11 @@
 package com.hallyugo.hallyugo.favorite.service;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import com.hallyugo.hallyugo.favorite.domain.response.FavoriteResponseDto;
 import com.hallyugo.hallyugo.favorite.domain.response.FavoriteResponseItem;
 import com.hallyugo.hallyugo.location.domain.Location;
 import com.hallyugo.hallyugo.location.repository.LocationRepository;
 import com.hallyugo.hallyugo.user.domain.User;
 import com.hallyugo.hallyugo.user.repository.UserRepository;
-import java.util.List;
-import java.util.Optional;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -18,6 +14,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Optional;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 @Transactional
 @ActiveProfiles("test")

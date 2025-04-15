@@ -1,7 +1,6 @@
 package com.hallyugo.hallyugo.proof.controller;
 
 import com.hallyugo.hallyugo.auth.annotation.AuthUser;
-import com.hallyugo.hallyugo.proof.domain.ProofShot;
 import com.hallyugo.hallyugo.proof.domain.request.ProofShotRequestDto;
 import com.hallyugo.hallyugo.proof.domain.response.ProofShotResponseDto;
 import com.hallyugo.hallyugo.proof.domain.response.ProofShotUploadResponseDto;

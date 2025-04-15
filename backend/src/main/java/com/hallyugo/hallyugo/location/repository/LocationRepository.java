@@ -1,8 +1,9 @@
 package com.hallyugo.hallyugo.location.repository;
 
 import com.hallyugo.hallyugo.location.domain.Location;
-import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
 
 public interface LocationRepository extends JpaRepository<Location, Long> {
 

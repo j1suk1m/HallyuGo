@@ -1,7 +1,6 @@
 package com.hallyugo.hallyugo.auth;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hallyugo.hallyugo.common.exception.ExceptionCode;
 import com.hallyugo.hallyugo.common.exception.ExceptionResponse;
 import com.hallyugo.hallyugo.common.exception.InvalidJwtException;
 import jakarta.servlet.FilterChain;

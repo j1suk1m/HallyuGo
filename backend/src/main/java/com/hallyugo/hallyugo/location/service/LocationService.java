@@ -4,9 +4,10 @@ import com.hallyugo.hallyugo.image.domain.response.ImageResponseDto;
 import com.hallyugo.hallyugo.image.service.ImageService;
 import com.hallyugo.hallyugo.location.domain.response.LocationWithImagesResponseDto;
 import com.hallyugo.hallyugo.location.repository.LocationRepository;
-import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @RequiredArgsConstructor
 @Service

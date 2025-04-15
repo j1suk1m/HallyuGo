@@ -10,9 +10,10 @@ import com.hallyugo.hallyugo.stamp.domain.response.StampResponseItem;
 import com.hallyugo.hallyugo.stamp.repository.StampRepository;
 import com.hallyugo.hallyugo.user.domain.User;
 import jakarta.transaction.Transactional;
-import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor

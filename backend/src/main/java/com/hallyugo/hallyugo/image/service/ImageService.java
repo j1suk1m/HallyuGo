@@ -2,9 +2,10 @@ package com.hallyugo.hallyugo.image.service;
 
 import com.hallyugo.hallyugo.image.domain.response.ImageResponseDto;
 import com.hallyugo.hallyugo.image.repository.ImageRepository;
-import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @RequiredArgsConstructor
 @Service

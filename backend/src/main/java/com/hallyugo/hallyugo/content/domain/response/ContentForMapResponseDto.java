@@ -4,8 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.hallyugo.hallyugo.content.domain.Category;
 import com.hallyugo.hallyugo.content.domain.Content;
 import com.hallyugo.hallyugo.location.domain.response.LocationWithImagesResponseDto;
-import java.util.List;
 import lombok.Getter;
+
+import java.util.List;
 
 public class ContentForMapResponseDto {
 

@@ -1,7 +1,5 @@
 package com.hallyugo.hallyugo.stamp.service;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.hallyugo.hallyugo.stamp.domain.response.StampResponseDto;
 import com.hallyugo.hallyugo.stamp.repository.StampRepository;
 import com.hallyugo.hallyugo.user.domain.User;
@@ -13,6 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.transaction.annotation.Transactional;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Transactional
 @ActiveProfiles("test")

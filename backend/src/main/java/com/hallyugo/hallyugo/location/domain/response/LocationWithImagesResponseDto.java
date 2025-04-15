@@ -3,12 +3,13 @@ package com.hallyugo.hallyugo.location.domain.response;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.hallyugo.hallyugo.image.domain.response.ImageResponseDto;
 import com.hallyugo.hallyugo.location.domain.Location;
+import lombok.Getter;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import lombok.Getter;
 
 public class LocationWithImagesResponseDto {
 
