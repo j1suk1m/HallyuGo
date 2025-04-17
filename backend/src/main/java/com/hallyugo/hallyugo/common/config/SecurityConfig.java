@@ -20,7 +20,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @RequiredArgsConstructor
 public class SecurityConfig{
 
-    public static final String AUTHENTICATED_URI[] = {"/api/v1/user/**"};
+    public static final String[] AUTHENTICATED_URI = {"/api/v1/user/**"};
     private final JwtProvider jwtProvider;
     private final CorsConfig corsConfig;
     private final JwtAccessDeniedHandler jwtAccessDeniedHandler;
